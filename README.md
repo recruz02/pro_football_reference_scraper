@@ -8,33 +8,43 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+An available PostgreSQL Database
+Python 3.6+
+Python Library - psycopg2 (http://initd.org/)
+Python Library - BeautifulSoup4 (https://pypi.org/project/beautifulsoup4/)
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+If not exists, create a new PostgreSQL Database
+Execute Script DDL_nflplayer.table.sql on PostgreSQL Databasee
+Execute Script DDL_nflplayer_passing_stats.table.sql
+Update database.ini file with valid information:
+  - host
+  - database
+  - user
+  - password
 
-Say what the step will be
+## Execution
 
-```
-Give the example
-```
+Navigate to Python script directory;
+Execute Python script: python.exe pro_football_reference_get_players.py
+Execute Python script: python.exe pro_football_reference_get_passing_stats.py	
 
-And repeat
+Complete!
 
-```
-until finished
-```
+## Authors
 
-End with an example of getting some data out of the system or using it for a little demo
+* **Robert Cruz** - *Initial work* - (https://github.com/recruz02)
 
-## Running the tests
 
-Explain how to run the automated tests for this system
+
+
+
+
+
+
+
+
 
 ### Break down into end to end tests
 
@@ -70,11 +80,6 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
