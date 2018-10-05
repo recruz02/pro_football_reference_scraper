@@ -81,7 +81,7 @@ def pro_football_reference_scrape_passing_tables(html_doc, pNflplayer):
         print("Unexpected error:", sys.exc_info()[0])
         print("Error Ocurred")
 
-def pro_football_reference_passing_parser():
+def pro_football_reference_get_passing_stats():
 
     # 1 - GET LIST OF NFL QBs
     myPlayers = nflplayerDAL()
@@ -97,4 +97,4 @@ def pro_football_reference_passing_parser():
 
 if __name__== "__main__":
     print("Hello, world!")
-    pro_football_reference_passing_parser()
+    pro_football_reference_get_passing_stats()
