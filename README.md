@@ -15,10 +15,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-If not exists, create a new PostgreSQL Database
-Execute Script DDL_nflplayer.table.sql on PostgreSQL Databasee
-Execute Script DDL_nflplayer_passing_stats.table.sql
-Update database.ini file with valid information:
+- If not exists, create a new PostgreSQL Database
+- Execute Script DDL_nflplayer.table.sql on PostgreSQL Databasee
+- Execute Script DDL_nflplayer_passing_stats.table.sql
+- Update database.ini file with valid information:
   - host
   - database
   - user
