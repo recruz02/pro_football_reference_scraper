@@ -8,10 +8,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-An available PostgreSQL Database
-Python 3.6+
-Python Library - psycopg2 (http://initd.org/)
-Python Library - BeautifulSoup4 (https://pypi.org/project/beautifulsoup4/)
+- An available PostgreSQL Database
+- Python 3.6+
+- Python Library - psycopg2 (http://initd.org/)
+- Python Library - BeautifulSoup4 (https://pypi.org/project/beautifulsoup4/)
 
 ### Installing
 
