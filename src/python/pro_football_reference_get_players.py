@@ -4,6 +4,10 @@ import urllib.request
 import string
 
 """
+TODO:
+- NEED TO CHANGE CODE TO ALLOW UPDATE OF RECORD IF ALREADY EXISTS
+
+
 Pro Football Reference Last Name "R": https://www.pro-football-reference.com/players/R/
 e.g.:
 <p><a href="/players/R/RodgAa00.htm">Aaron Rodgers</a> (QB)</b> 2005-2018</p>
@@ -61,7 +65,7 @@ def pro_football_reference_get_players():
                     myPlayer.last_name = player_last_name
                     myPlayer.player_position = player_position
                     myPlayer.url = player_url
-                    myPlayer.insert()
+                    myPlayer.insert()       #INSERT INTO POSTGRES DATABASE
                 
                 except:
                     print("Error Adding Player:" + player)
