@@ -26,11 +26,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Execution
 
-Navigate to Python script directory;
-Execute Python script: python.exe pro_football_reference_get_players.py
-Execute Python script: python.exe pro_football_reference_get_passing_stats.py	
-
-Complete!
+- Navigate to Python script directory;
+- Execute Python script: python.exe pro_football_reference_get_players.py
+- Execute Python script: python.exe pro_football_reference_get_passing_stats.py	
+- Complete!
 
 ## Authors
 
