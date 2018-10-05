@@ -22,7 +22,7 @@ def removeParenthesis(str):
     return str.replace('(','').replace(')','')
 
 
-def pro_football_reference_downloader():
+def pro_football_reference_get_players():
 
     # LOOP THROUGH EVERY LETTER OF ALPHABET
     for letter in list(string.ascii_uppercase):
@@ -73,4 +73,4 @@ def pro_football_reference_downloader():
 
 
 if __name__ == '__main__':
-    pro_football_reference_downloader()
+    pro_football_reference_get_players()
