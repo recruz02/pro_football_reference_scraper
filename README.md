@@ -2,6 +2,12 @@
 
 This is a Python Application that can manually scrape data from the website https://www.pro-football-reference.com and store that data into a PostgreSQL Database
 
+# TODO
+
+- Update code to allow insertion of multiple rows as a batch
+- Update code to either delete prior to insert, or update if exists
+- Add Unit Testing code
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
